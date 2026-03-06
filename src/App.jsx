@@ -210,7 +210,7 @@ export default function App() {
     <div className="min-h-screen text-[#000000] font-sans overflow-hidden cursor-default selection:bg-[#D4E5A8] relative">
       
       <div className="fixed inset-0 z-[-1] overflow-hidden bg-[#F5EDD6]">
-        <motion.video ref={bgVideoRef} src="/Video_Animation_Leaves_Blowing_in_Wind.mp4" autoPlay muted loop playsInline initial={{ opacity: 0 }} animate={appLoaded ? { opacity: 1 } : { opacity: 0 }} transition={{ duration: 1 }} className="w-full h-full object-cover scale-[1.35]" />
+        <motion.video ref={bgVideoRef} src="./Video_Animation_Leaves_Blowing_in_Wind.mp4" autoPlay muted loop playsInline initial={{ opacity: 0 }} animate={appLoaded ? { opacity: 1 } : { opacity: 0 }} transition={{ duration: 1 }} className="w-full h-full object-cover scale-[1.35]" />
         <div className="absolute inset-0 bg-[#F5EDD6]/40 mix-blend-soft-light"></div> 
       </div>
 
